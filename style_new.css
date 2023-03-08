@@ -1,0 +1,30 @@
+.img1{clip-path: circle(110px at center); width: 350px; height: 225px}
+
+.plus:hover{color: blue; font-weight: bold}
+.minus:hover{color: blue; font-weight: bold}
+.umn:hover{color: blue; font-weight: bold}
+.del:hover{color: blue; font-weight: bold}
+
+
+.butOpen{color: green}
+html{font-family: 'Verdana'; color: white;}
+body {background: url("bg.jpg"); background-size: 1920px 1080px; }
+
+.oblako
+{
+	position: fixed; 
+	bottom: 0;
+	
+	width: 350px; 
+	height: 190px; 
+	animation: oblakoMove 7s infinite linear;
+
+}
+@keyframes oblakoMove {
+	0%{
+		left: -500px;
+	}
+	100%{
+		left: 2000px;
+	}
+}
